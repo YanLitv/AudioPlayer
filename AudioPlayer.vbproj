@@ -141,6 +141,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Audio.cs" />
+    <Content Include="ChangePage.cs" />
     <Content Include="PagesButtons\AddFolderButtons.cs" />
     <Content Include="PagesButtons\PlayListInfoButtons.cs" />
     <Content Include="Panels\BottomPanelButtons.cs" />
