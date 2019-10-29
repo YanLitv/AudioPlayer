@@ -131,8 +131,28 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Content Include="PagesButtons\AddFolderButtons.cs" />
+    <Content Include="PagesButtons\PlayListInfoButtons.cs" />
+    <Content Include="Panels\BottomPanelButtons.cs" />
+    <Content Include="Panels\RightPanelButtons.cs" />
+    <Resource Include="Resources\add.png" />
+    <Resource Include="Resources\AddFolder.png" />
+    <Resource Include="Resources\addpl.png" />
+    <Resource Include="Resources\MainPL.png" />
+    <Resource Include="Resources\Menu_icon.png" />
+    <Resource Include="Resources\NextB.png" />
+    <Resource Include="Resources\NoImg.jpg" />
+    <Resource Include="Resources\Pause.png" />
+    <Resource Include="Resources\PlayB.png" />
+    <Resource Include="Resources\PlayList.png" />
+    <Resource Include="Resources\playlists.png" />
+    <Resource Include="Resources\PrevB.png" />
+    <Resource Include="Resources\Random.png" />
+    <Resource Include="Resources\Remove.png" />
+    <Resource Include="Resources\replay.png" />
+    <Resource Include="Resources\VolumeB.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
