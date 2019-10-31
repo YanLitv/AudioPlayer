@@ -3,7 +3,7 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Audio_Player
+namespace AudioPlayer
 {
 
     public partial class MainWindow : Window

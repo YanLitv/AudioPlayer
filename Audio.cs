@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Audio_Player
+namespace AudioPlayer
 {
     [Serializable]
     public class Audio

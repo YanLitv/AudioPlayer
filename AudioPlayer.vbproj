@@ -68,6 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MyDialogWindow.xaml.vb">
+      <DependentUpon>MyDialogWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="AddAudioWind.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -94,6 +97,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MyDialogWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Import Include="System.Threading.Tasks" />
@@ -141,6 +148,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -149,10 +157,13 @@
   <ItemGroup>
     <Content Include="Audio.cs" />
     <Content Include="ChangePage.cs" />
+    <Content Include="LoadAudio.cs" />
     <Content Include="PagesButtons\AddFolderButtons.cs" />
     <Content Include="PagesButtons\PlayListInfoButtons.cs" />
     <Content Include="Panels\BottomPanelButtons.cs" />
     <Content Include="Panels\RightPanelButtons.cs" />
+    <Content Include="PlayList.cs" />
+    <Content Include="SerializationData.cs" />
     <Resource Include="Resources\add.png" />
     <Resource Include="Resources\AddFolder.png" />
     <Resource Include="Resources\addpl.png" />

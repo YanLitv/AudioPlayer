@@ -7,7 +7,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 
-namespace Audio_Player
+namespace AudioPlayer
 {
 
     public partial class MainWindow : Window

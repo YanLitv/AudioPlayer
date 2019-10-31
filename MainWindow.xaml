@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Audio_Player" x:Name="window"
-        x:Class="Audio_Player.MainWindow"
+        x:Class="AudioPlayer.MainWindow"
         mc:Ignorable="d"
         Title="Player" MinHeight="500" MinWidth="520" SizeChanged="Window_SizeChanged" Closing="Window_Closed">
 
